@@ -1,7 +1,8 @@
 * {
     line-height: 1.5;
     background-color: #99FF99;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 .title,
@@ -23,13 +24,35 @@ img {
 
 table {
     width: 100%;
-    height: 100px;
+    table-layout: fixed;
 }
 
-td {
-    max-width: 0px;
+.rowone {
+    height: 100px;
+    vertical-align: bottom;
+}
+
+.rowtwo {
+    height: 160px;
 }
 
 td {
     text-align: center;
+}
+
+#lasagna,
+#chicken,
+#cookie {
+    height: 100px; 
+    width: auto;
+}
+
+#lasagna:hover,
+#chicken:hover,
+#cookie:hover {
+    height: 150px;
+}
+
+.indexrecipe {
+    font-size: 20px;
 }
